@@ -1,0 +1,95 @@
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border:border-box;
+}
+
+.main-container{
+    background-color:#fff;
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgb(0,0,0,0.3);
+
+}
+
+.main-container img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    /* padding: 2%; */
+    border: 1px solid black;
+    box-shadow: 0 2px 15px rgb(0,0,0,0.3);
+
+}
+h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-family:Times New 'Times New Roman', Times, serif ;
+}
+p{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-family:Times New 'Times New Roman', Times, serif ;
+    color: tomato;
+    font-family: Monospace;
+    font-size: 15px;
+}
+.button{
+    display: flex;
+    /* align-items: center; */
+    justify-content:space-evenly;
+    /* background-color: black; */
+    
+}
+
+.button button{
+    margin: 2px 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none ;
+    height: 35px;
+    width: 90px;
+    box-shadow: 0 2px 15px rgb(0,0,0,0.3);
+} 
+
+#remove{
+    background-color: #dadada;
+    color: black;
+}
+
+#remove:hover{
+    background-color: tomato;
+    color:#dadada ;
+}
+
+#a-dd{
+    background-color: cadetblue;
+    color:#fff;
+}
+#a-dd:hover{
+    background-color: #fff;
+    color:cadetblue;
+}
+button:active{
+    transform: scale(0.98);
+}
