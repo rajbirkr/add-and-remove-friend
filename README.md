@@ -9,7 +9,7 @@ A small vanilla JavaScript UI demo of a "friend request" card — click **Add** 
 
 ## Preview
 
-![Preview](assets/Model.jpg)
+![Preview](assets/preview.jpg)
 
 ## Tech Stack
 
@@ -35,7 +35,7 @@ No build tools or installation needed.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/rajbirkr/add-and-remove-friend.git
+   git clone https://github.com/<rajbirkr>/add-and-remove-friend.git
    cd add-and-remove-friend
    ```
 2. Open `index.html` in your browser (or use a live server extension in your editor).
