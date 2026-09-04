@@ -9,7 +9,7 @@ A small vanilla JavaScript UI demo of a "friend request" card — click **Add** 
 
 ## Preview
 
-![Preview](assets/preview.jpg)
+![Preview](assets/preview.png)
 
 ## Tech Stack
 
